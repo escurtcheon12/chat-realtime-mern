@@ -1,0 +1,111 @@
+
+/* .container {
+    position: relative;
+} */
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #36b76b;
+    color: white;
+    border-bottom:  1px solid rgba(177, 177, 177,.9);
+}
+
+.online-board, .offline-board {
+    border:  1px solid rgba(177, 177, 177,.9);
+}
+
+.container-send-message {
+    border: 1px solid rgba(177, 177, 177,.9);
+    /* height: 100vh; */
+    width: 100%;
+    background-color: white;
+    padding-bottom: 6rem;
+}
+
+.row-chat {
+    /* background-color: #28a745; */
+}
+
+.bar-message-place {
+    margin-top: 2rem;
+    width: 100% !important;
+    /* background-color: #28a745; */
+}
+
+
+.right-container  {
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    border: 1px solid rgba(177, 177, 177,.9);
+    position: relative;
+    background-color: #36b76b;
+}
+
+.bar-message {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border: 1px solid rgba(177, 177, 177,.9);
+    background-color: #36b76b;
+}
+
+.left-bar-profile {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(177, 177, 177,.9);;
+}
+
+.right-bar-profile {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(177, 177, 177,.9);
+  }
+
+  .card-online-board, .card-offline-board {
+    border-bottom: 1px solid rgba(177, 177, 177,.9);
+    cursor: pointer;
+  }
+
+  .online-bar-board, .offline-bar-board {
+    border-bottom: 1px solid rgba(177, 177, 177,.9);
+    background-color: #36b76b;
+    color: white
+  }
+
+  .chat-board {
+    border: 1px solid rgba(177, 177, 177,.9);
+  }
+
+  .right-chat-board {
+    background-color: #36b76b;
+    color:  white;
+  }
+
+  .accept-bar-profile  {
+    background-color: #36b76b;
+    color: white
+  }
+
+  .left-chat-board {
+    color: black
+  }
+
+  .sended-bar-profile  {
+    /* color: rgba(177, 177, 177,.9); */
+  }
